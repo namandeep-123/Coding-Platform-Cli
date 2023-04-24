@@ -87,17 +87,6 @@ async function fetchUserData() {
     spinner.error({ text: "User not found" });
     await sleep();
   }
-  //data
-  //totalSolved
-  //totalQuestions
-  //easySolved
-  //mediumSolved
-  //hardSolved
-  //totalEasy
-  //totalMedium
-  //totalHard
-  //acceptanceRate
-  //ranking
 }
 
 if (argv.print) {
