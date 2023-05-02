@@ -19,6 +19,7 @@ import {
   RANKING,
   SUCCESS,
   TOTAL_QUESTIONS_SOLVED,
+  USERNAME,
   USER_NOT_FOUND,
 } from "./constants.js";
 
@@ -54,6 +55,7 @@ async function showUserData(options) {
     console.log(gradient.pastel.multiline(data));
 
     console.log(`
+  ${gradient.pastel.multiline(USERNAME)} ${chalk.green(userProfileName)}
   ${gradient.pastel.multiline(TOTAL_QUESTIONS_SOLVED)} ${chalk.green(
       totalSolved
     )} / ${chalk.green(totalQuestions)}

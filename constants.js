@@ -14,5 +14,6 @@ export const RANKING = "Ranking:";
 
 export const FETCHING_USER_DATA = "Fetching user data...";
 export const USER_NOT_FOUND = "User not found";
+export const USERNAME = "Username:";
 
 export const SUCCESS = "success";
